@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script type="text/javascript">
+
+        function duihua()
+        {
+            alert("接单成功！！")
+        }
+
+    </script>
     <style type="text/css">
 
         div>p{
@@ -33,9 +41,33 @@
 
         }
         p1{
-            position:relative;top:400px;left:90px;right: 100px;
+            position:relative;top:250px;left:200px;right: 100px;
+            width: 300px;
+            text-align: justify;
+            font-weight: bolder;
         }
-
+        p2{
+            position:relative;top:250px;left:200px;right: 100px;
+            width: 300px;
+            text-align: justify;
+            font-weight: bolder;
+            color: red;
+        }
+        p0{
+            position: absolute;top:30px;left:200px;right:100px;
+            font-weight:bolder;
+            font-size: medium;
+            font-family: "";
+        }
+        a1{
+            position:absolute;top:55px;left:120px;right:100px;
+        }
+        a2{
+            position:absolute;top:400px;left:220px;right:100px;
+        }
+        script{
+            position:fixed;top:300px;left:90px;right:100px
+        }
     </style>
     <link rel="stylesheet" href="css.css">
 </head>
@@ -43,11 +75,15 @@
 
 <div id="a">
 
+    <p0>浑南校区食堂</p0>
+    <a1 href="zwk4.html" style="padding-left:10px"><img src="images/chaofan.png" width="240px" height="160px" ></a1>
 
-
-
-
-
+    <p1>
+        食堂二楼南侧窗口 <br>
+        扬州炒饭 <br>
+    </p1>
+    <p2>¥7.00</p2>
+    <a2>  <input type="button" onclick="duihua()" value="帮TA带" /></a2>
 
 
 </div>
