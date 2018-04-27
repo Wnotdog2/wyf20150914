@@ -5,18 +5,22 @@
     <title>Title</title>
     <script type="text/javascript">
 
-        function duihua()
+        function tishi()
         {
-            alert( "取件码：123456"+
-                "取件人姓名：阿狗" +
-                "取件人电话：1580403xxxx"
-            )
+            var t=prompt("请输入您密码","")
+            if (t!=null && t!="")
+            {
+                document.write("取件码：123456 <br>"+
+                    "取件人姓名：阿狗 <br>" +
+                    "取件人电话：1580403xxxx")
+            }
         }
+
 
     </script>
     <style type="text/css">
 
-        div>p{
+       div>p{
 
             width: 500px;
             text-indent: 2em;
@@ -49,19 +53,21 @@
             text-align: justify;
             font-weight: bolder;
             font-size: larger;
+            font-family:"Microsoft Himalaya";
         }
         p2{
             position:relative;top:250px;left:200px;right: 100px;
             width: 300px;
             text-align: justify;
             font-weight: lighter;
+            font-family:"Microsoft Himalaya";
 
         }
         p0{
             position: absolute;top:30px;left:200px;right:100px;
             font-weight:bolder;
             font-size: medium;
-            font-family: "";
+            font-family:"Microsoft Himalaya";
         }
         a1{
             position:absolute;top:55px;left:100px;right:100px;
@@ -86,8 +92,8 @@
        佰米智能<br>
         <br>
     </p1>
-    <p2>快递公司：顺丰快递</p2>
-    <a2>  <input type="button" onclick="duihua()" value="帮TA带" /></a2>
+    <p2>快递公司：顺丰快递 <br></p2>
+    <a2>  <input type="button" onclick="tishi()" value="帮TA带" /></a2>
 
 
 </div>
